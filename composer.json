@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": "Description",
-    "keywords": ["keyword"],
+    "name": "koshaladka/moonshine-input-extension-char-count",
+    "description": "Input-extension display of number of characters",
+    "keywords": ["moonshine", "input extension", "char count"],
     "type": "library",
     "homepage": "https://moonshine.cutcode.dev",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/:vendor_name/:package_name/issues",
-        "source": "https://github.com/:vendor_name/:package_name"
+        "issues": "https://github.com/koshaladka/moonshine-input-extension-char-count/issues",
+        "source": "https://github.com/koshaladka/moonshine-input-extension-char-count"
     },
     "authors": [
         {
-            "name": "Author name",
+            "name": "Ershova Alena",
             "email": "author@example.com",
             "homepage": "https://example.com"
         }
@@ -30,13 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\PackageName\\": "src/"
+            "Koshaladka\\InputExtensionCharCount\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\PackageName\\Tests\\": "tests/",
-            "VendorName\\PackageName\\Database\\Factories\\": "database/factories/"
+            "Koshaladka\\InputExtensionCharCount\\Tests\\": "tests/"
         }
     },
     "conflict": {
@@ -49,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\PackageName\\Providers\\PackageNameServiceProvider"
+                "Koshaladka\\InputExtensionCharCount\\Providers\\CharCountServiceProvider"
             ]
         }
     }
